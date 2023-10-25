@@ -1,5 +1,5 @@
 import tensorflow as tf
-import tensorflow.layers as layers
+import tensorflow.keras.layers as layers
 
 def inference_person(image):
   with tf.variable_scope('PersonNet'):
